@@ -439,6 +439,12 @@ p { margin: 0 0 14px 0; }
   text-decoration: none;
 }
 
+.site-title .name-cn {
+  font-weight: 400;
+  margin-left: 0.25em;
+  opacity: 0.75;
+}
+
 /* --- Responsive --- */
 @media (max-width: 800px) {
   .themes, .software-grid { grid-template-columns: 1fr 1fr; }
