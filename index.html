@@ -1,42 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-	<title>Jonathan Doe | Web Designer, Director | name@yourdomain.com</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bin Shao</title>
+  <meta name="description" content="Bin Shao — generative modeling of biological data and biodesign.">
+  <link rel="stylesheet" href="style.css">
 </head>
-	
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. Bin Shao</p>
 
-<div id="doc2" class="yui-t7">
-	<div id="inner">
-		<div id="hd">
-			<div class="yui-gc">
-				<div class="yui-u first">
-					<h1>Jonathan Doe</h1>
-					<h2>Web Designer, Director</h2>
-				</div>
+<header class="site-header">
+  <div class="container">
+    <div class="site-title">Bin Shao (BIT)</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="software.html">Software</a></li>
+        <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-				<div class="yui-u">
-					<div class="contact-info">
-						<h3><a id="pdf" href="#">Download PDF</a></h3>
-						<h3><a href="mailto:name@yourdomain.com">name@yourdomain.com</a></h3>
-						<h3>(313) - 867-5309</h3>
-					</div><!--// .contact-info -->
-				</div>
-			</div><!--// .yui-gc -->
-		</div><!--// hd -->
-	</div><!-- // inner -->
-</div><!--// doc -->
-	
+<main>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <img src="images/profile.jpg" alt="Bin Shao" class="profile-photo">
+      <div class="hero-text">
+        <h1>Bin Shao</h1>
+        <div class="subtitle">Computational biologist &middot; ML for biodesign</div>
+        <div class="affiliation">
+          Broad Institute of MIT and Harvard &middot; Cambridge, MA
+        </div>
+        <p style="color:#333; font-size:15.5px;">
+          I build <strong>generative models of biological data</strong> to understand,
+          predict, and engineer living systems &mdash; from molecules to genomes.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your-email@broadinstitute.org">Email</a>
+          <a href="https://scholar.google.com/citations?user=puR45JsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://github.com/lingxusb" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://twitter.com/YOUR_HANDLE" target="_blank" rel="noopener">Twitter</a>
+          <a href="https://www.linkedin.com/in/YOUR_HANDLE" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a researcher at the intersection of machine learning and biology. My work
+        focuses on <strong>generative modeling of biological data</strong> and its
+        applications in <strong>biodesign</strong> &mdash; using deep learning to
+        decipher and engineer biological sequences across scales.
+      </p>
+      <p>
+        I am particularly interested in building long-context language models for
+        genomes and plasmids, learning design principles for synthetic biology, and
+        developing computational tools that accelerate the rational engineering of
+        living systems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Themes</h2>
+      <div class="themes">
+        <div class="theme-card">
+          <h3>Generative Genomics</h3>
+          <p>Long-context language models that learn the grammar of DNA &mdash; from plasmids to whole bacteriophage genomes &mdash; and generate novel functional sequences.</p>
+        </div>
+        <div class="theme-card">
+          <h3>Biodesign</h3>
+          <p>Computational frameworks for rational design of genetic circuits, regulatory elements, and engineered organisms.</p>
+        </div>
+        <div class="theme-card">
+          <h3>Quantitative Biology</h3>
+          <p>Single-cell measurement, mathematical modeling, and ribosome profiling to dissect gene expression dynamics.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Work</h2>
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://www.biorxiv.org/content/10.1101/2024.09.30.615762v1" target="_blank" rel="noopener">PlasmidGPT: a generative framework for plasmid design and annotation</a>
+          <span class="pub-tag">Accepted</span>
+        </div>
+        <div class="pub-authors"><span class="me">B. Shao</span></div>
+        <div class="pub-venue">Science Advances, 2026 (in press) &middot; bioRxiv preprint 2024</div>
+      </div>
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://www.biorxiv.org/content/10.1101/2023.12.18.572218v3" target="_blank" rel="noopener">A long-context language model for deciphering and generating bacteriophage genomes</a>
+        </div>
+        <div class="pub-authors"><span class="me">B. Shao</span>, J. Yan</div>
+        <div class="pub-venue">Nature Communications, 2024</div>
+      </div>
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://www.nature.com/articles/s41467-024-46241-8" target="_blank" rel="noopener">Riboformer: a deep learning framework for predicting context-dependent translation dynamics</a>
+        </div>
+        <div class="pub-authors"><span class="me">B. Shao</span>, J. Yan, J. Zhang, L. Liu, Y. Chen, A. R. Buskirk</div>
+        <div class="pub-venue">Nature Communications, 2024</div>
+      </div>
+      <p style="margin-top:16px;"><a href="publications.html">See full publication list →</a></p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    &copy; 2026 Bin Shao &middot; Cambridge, MA
+  </div>
+</footer>
+
 </body>
 </html>
